@@ -5,6 +5,7 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.8.0' apply false
 }
 ext {
-    lifecycleVersion = '2.4.0'
-    roomVersion = '2.3.0'
+    lifecycleVersion = '2.6.1'
+    roomVersion = '2.5.1'
+    activityVersion = '1.7.2'
 }
