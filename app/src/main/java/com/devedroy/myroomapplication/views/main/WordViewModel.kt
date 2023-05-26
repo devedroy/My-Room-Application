@@ -1,10 +1,12 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.views.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
+import com.devedroy.myroomapplication.data.local.Word
+import com.devedroy.myroomapplication.data.local.WordRepository
 import kotlinx.coroutines.launch
 
 class WordViewModel(

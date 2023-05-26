@@ -1,4 +1,4 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.data.local
 
 import android.content.Context
 import androidx.room.Database

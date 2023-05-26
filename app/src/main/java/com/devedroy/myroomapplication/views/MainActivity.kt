@@ -1,4 +1,4 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.views
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.devedroy.myroomapplication.R
+import com.devedroy.myroomapplication.WordsApplication
+import com.devedroy.myroomapplication.data.local.Word
+import com.devedroy.myroomapplication.views.main.WordListAdapter
+import com.devedroy.myroomapplication.views.main.WordViewModel
+import com.devedroy.myroomapplication.views.main.WordViewModelFactory
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {

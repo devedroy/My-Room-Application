@@ -1,6 +1,8 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.data.local
 
 import androidx.annotation.WorkerThread
+import com.devedroy.myroomapplication.data.local.Word
+import com.devedroy.myroomapplication.data.local.WordDao
 import kotlinx.coroutines.flow.Flow
 
 class WordRepository(

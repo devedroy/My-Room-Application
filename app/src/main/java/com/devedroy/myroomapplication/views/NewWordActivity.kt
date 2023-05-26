@@ -1,4 +1,4 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.views
 
 import android.app.Activity
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
+import com.devedroy.myroomapplication.R
 
 class NewWordActivity : AppCompatActivity() {
     private lateinit var editWordView: EditText

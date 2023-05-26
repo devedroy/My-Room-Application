@@ -1,4 +1,4 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.data.local
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

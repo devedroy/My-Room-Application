@@ -1,9 +1,10 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.data.local
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import com.devedroy.myroomapplication.data.local.Word
 import kotlinx.coroutines.flow.Flow
 
 @Dao

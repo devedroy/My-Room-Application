@@ -1,4 +1,4 @@
-package com.devedroy.myroomapplication
+package com.devedroy.myroomapplication.views.main
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.devedroy.myroomapplication.R
+import com.devedroy.myroomapplication.data.local.Word
 
 class WordListAdapter : ListAdapter<Word, WordListAdapter.WordViewHolder>(WordsComparator()) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder =
